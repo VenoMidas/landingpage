@@ -1,0 +1,151 @@
+:root {
+    --dark-background: #1F2937;
+    --medium-background: #E5E7EB;
+    --maintext-white: #F9FAF8;
+    --secondarytext-grey: #E5E7EB;
+    --button-background: #3882F6;
+    --text-black: #1F2937;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondarytext-grey);
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0px;
+}
+
+.header,
+.hero {
+    background-color: var(--dark-background);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+}
+
+.header_links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    display: flex;
+    color: var(--maintext-white);
+    align-items: center;
+}
+
+.hero {
+    align-items: center;
+}
+
+.hero img,
+.card {
+    width: 500px;
+    height: auto;
+    margin: 50px 0;
+}
+
+.card h1,
+.action_container h2 {
+    color: var(--maintext-white)
+}
+
+.card p,
+.action_container p {
+    color: var(--secondarytext-grey);
+}
+
+.info_container {
+    display: flex;
+    justify-content: center;
+}
+
+.info_header {
+    text-align: center;
+    font-size: 36px;
+    color: var(--text-black);
+    font-weight: 800;
+}
+
+.info {
+    padding: 100px;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 26px;
+    width: 200px;
+    height: auto;
+}
+
+.testimonial {
+    background-color: var(--medium-background);
+    padding: 100px 250px;
+}
+
+.testimonial p {
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--text-black);
+    font-style: italic;
+}
+
+.testimonial h3 {
+    text-align: end;
+}
+
+button {
+    background-color: var(--button-background);
+    color: var(--maintext-white);
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    border-color: white;
+}
+
+.action_block {
+    padding: 75px 250px;
+}
+
+.action_container {
+    background-color: var(--button-background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.action_container h2,
+.action_container p {
+    margin: 0px;
+}
+
+.footer {
+    background-color: var(--dark-background);
+    color: var(--secondarytext-grey);
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    padding: 50px 0;
+}
